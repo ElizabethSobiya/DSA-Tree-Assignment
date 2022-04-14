@@ -269,6 +269,6 @@ class Node {
   root.leftSide.left = newNode(4);
   root.leftSide.right = newNode(5);
   printOddNodes(root, true);
-  console.group(root);
+  console.log(root);
   
   
